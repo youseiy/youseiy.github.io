@@ -47,6 +47,10 @@ const CONFIG = {
   },
   skills: [
     'C/C++',
+    'C#',
+    'Unreal Engine',
+    'Unity',
+    'Godot',
   ],
   experiences: [
     {
@@ -57,7 +61,7 @@ const CONFIG = {
       companyLink: 'https://www.gixer.com.br/',
     },
     {
-      company: 'Limair Studios',
+      company: 'Limiar Studios',
       position: 'Game Programmer',
       from: 'March 2023',
       to: 'September 2024',
