@@ -45,9 +45,6 @@ const CONFIG = {
     linkedin: 'matheusalmeiday',
     email: 'theusvini1@gmail.com',
   },
-  resume: {
-    fileUrl:
-  },
   skills: [
     'C/C++',
   ],
