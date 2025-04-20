@@ -19,7 +19,7 @@ const CONFIG = {
         sortBy: 'stars', // Sort projects by 'stars' or 'updated'
         limit: 8, // How many projects to display.
         exclude: {
-          forks: false, // Forked projects will not be displayed if set to true.
+          forks: true, // Forked projects will not be displayed if set to true.
           projects: ['youseiy/youseiy.github.io'], // These projects will not be displayed. example: ['arifszn/my-project1', 'arifszn/my-project2']
         },
       },
@@ -50,13 +50,20 @@ const CONFIG = {
   ],
   experiences: [
     {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'September 2021',
+      company: 'Gixer Entertainment',
+      position: 'Game Programmer',
+      from: 'September 2024',
       to: 'Present',
-      companyLink: 'https://example.com',
+      companyLink: 'https://www.gixer.com.br/',
     },
     {
+      company: 'Limair Studios',
+      position: 'Game Programmer',
+      from: 'March 2023',
+      to: 'September 2024',
+      companyLink: 'https://limiarstudios.com/',
+    },
+      {
       company: 'Company Name',
       position: 'Position',
       from: 'July 2019',
@@ -74,16 +81,16 @@ const CONFIG = {
   ],
   educations: [
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2015',
-      to: '2019',
+      institution: 'Estacio',
+      degree: 'Post Graduate Degree',
+      from: '2023',
+      to: '2024',
     },
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2012',
-      to: '2014',
+      institution: 'Estacio',
+      degree: 'Digital Games Degree',
+      from: '2021',
+      to: '2023',
     },
   ],
   publications: [
